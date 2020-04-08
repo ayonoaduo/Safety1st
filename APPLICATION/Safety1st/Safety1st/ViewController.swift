@@ -7,13 +7,15 @@
 //
 
 import UIKit
+import Foundation
 
 class ViewController: UIViewController {
     
     var redirectNumber = 0000000000
-    var helpText = "Enter Phone Number"
+    var helpText = "Enter A Redirect\nPhone Number"
     var showCall = true//used to switch between save number and call
     var enteredNum = "empty"
+    var timer = Timer()
     
     @IBOutlet weak var InfoBox: UILabel!
     @IBAction func One(_ sender: UIButton) {
@@ -116,7 +118,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func settings(_ sender: UIButton) {
-        InfoBox.text = "current redirect:\n" + String(redirectNumber)
+        InfoBox.text = "current redirect:\n" + String(redirectNumber) + "\nEnter a new number"
         saveButton.isHidden = false;
         CallButtonOutlet.isHidden = true
         enteredNum = "empty"
@@ -126,7 +128,7 @@ class ViewController: UIViewController {
     @IBAction func Call(_ sender: UIButton) {
         //phone redirect number here
         
-        if(redirectNumber != 0){
+        if(redirectNumber != 0 && redirectNumber != 911){
             guard let url = URL(string:"TEL://\(redirectNumber)")
             else{
                 return
@@ -141,12 +143,13 @@ class ViewController: UIViewController {
         saveButton.isHidden = true
         if(enteredNum != "empty" && !enteredNum.isEmpty){
             redirectNumber = Int(enteredNum) ?? 0
-            InfoBox.text = "Redirect Saved"
+            InfoBox.text = "Redirect Saved\n" + String(redirectNumber)
         }
         else {
             InfoBox.text = " "
         }
         enteredNum = "empty"
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(timerAction), userInfo: nil, repeats: false)
     }
     
     @IBAction func backSpace(_ sender: UIButton) {
@@ -155,11 +158,22 @@ class ViewController: UIViewController {
             InfoBox.text = enteredNum
         }
     }
+    
+    @objc func timerAction(){
+        if(enteredNum == "empty"){
+            InfoBox.text = ""
+        }
+        else{
+            InfoBox.text = enteredNum
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        saveButton.isHidden = true
-        
+        saveButton.isHidden = false
+        CallButtonOutlet.isHidden = true
+        InfoBox.text = helpText
     }
     
 }
