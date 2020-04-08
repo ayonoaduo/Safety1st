@@ -4,20 +4,59 @@ IOS App created for the Regina Fire Protection Services
 Requirements to use this app:
 
 	1) Must have access to a Mac computer that can run XCode
-	
+
 	2) Must have access to an IPhone with the ability to make phone calls
 
-Steps to use the app:
+## [Documentation](DOCUMENTATION)
 
-	1) Create or edit a contact with the number you want to call
+1) [Problem Definition](/DOCUMENTATION/Problem%20definition.pdf)
+	
+2) [Eco System Map](/DOCUMENTATION/Eco-system%20map.pdf)
+	
+3) [Empathy Map Template](/DOCUMENTATION/Empathy%20Map%20Template(Group%20D).pdf)
+
+4) [Linking back to Design Principles](/DOCUMENTATION/Project_Design_principles.pdf)
+	
+5) [USM board](/DOCUMENTATION/USM)
+	
+6) [Deliverable 1 Customer Notes](/DOCUMENTATION/Customer_Notes/Summarized%20customer%20notes.pdf)
+
+7) [Deliverable 2 Customer Notes](/DOCUMENTATION/Customer_Notes/Summarized%20customer%20notes%20(Deliverable%202).pdf)
+
+8) [Affinity Diagram](/DOCUMENTATION/Affinity-diagram/Affinity%20diagram.pdf)
+
+9) [Low-fidelity 1](/DOCUMENTATION/Prototype/Low-fidelity/471%20Lofi.pdf)
+
+10) [Low-fidelity 2](/DOCUMENTATION/Prototype/Low-fidelity/Lo-Fi%20Interfaces.pdf)
+
+11) [Low-fidelity 3](/DOCUMENTATION/Prototype/Low-fidelity/Lofi_1.pdf)
+
+12) [Low-fidelity 4](/DOCUMENTATION/Prototype/Low-fidelity/Lofi_2.pdf)
+
+13) [Hi-fidelity 1](/DOCUMENTATION/Prototype/High-fidelity/ENSE471_proj.pdf)
+
+14) [Hi-fidelity 2](/DOCUMENTATION/Prototype/High-fidelity/Protoype%201.pdf)
+
+## [Application Code](APPLICATION)
+
+[Icon URL](/APPLICATION/iconURL.txt)
+
+### Steps to use the app:
+
+1) Download [code folder](/APPLICATION/Safety1st)
+
+2) Create or edit a contact with the number you want to call
   
-	2) Store the new contact name as 911 
+3) Store the new contact name as 911 
+![](screenShot.png)
+
+4) On a mac, download xcode
+![](screenShot.png)
+
+5) Double click "Safety1st.xcodeproj" to open the project
   
- 	3) On a mac, download xcode
-  
-	4) Double click "Safety1st.xcodeproj" to open the project
-  
-	5) On the top left choose the device to simulate or download
+6) On the top left choose the device to simulate or download
 ![](screenShot.png)
 	
-	6) Click the play button OR Choose Run the project
+7) Click the play button OR Choose Run the project
+![](screenShot.png)
