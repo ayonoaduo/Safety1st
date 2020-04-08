@@ -12,8 +12,6 @@ Steps to use the app:
 	4) Double click "Safety1st.xcodeproj" to open the project
   
 	5) On the top left 
-	![](screenShot.png)
+![](screenShot.png)
 	
 	6) Click the play button OR Choose Run the project
-
-![](screenShot.png)
