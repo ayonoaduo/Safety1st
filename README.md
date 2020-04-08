@@ -48,15 +48,15 @@ Requirements to use this app:
 2) Create or edit a contact with the number you want to call
   
 3) Store the new contact name as 911 
-![](screenShot.png)
+![](/ReadMeImages/contact_image.PNG)
 
 4) On a mac, download xcode
-![](screenShot.png)
+![](/ReadMeImages/xcode_image.png)
 
 5) Double click "Safety1st.xcodeproj" to open the project
-  
+![](/ReadMeImages/projectFile.png)
+
 6) On the top left choose the device to simulate or download
-![](screenShot.png)
 	
 7) Click the play button OR Choose Run the project
-![](screenShot.png)
+![](/ReadMeImages/screenShot.png)
