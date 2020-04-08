@@ -5,7 +5,7 @@ Steps to use the app:
 
 	1) Create a new contact with the number to call, on an Iphone
   
-	2) Store the new contact name as 911 On a mac, download xcode
+	2) Store the new contact name as 911 
   
  	3) On a mac, download xcode
   
