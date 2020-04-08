@@ -16,3 +16,4 @@ Steps to use the app:
 	
 	6) Click the play button OR Choose Run the project
 
+![](screenShot.png)
