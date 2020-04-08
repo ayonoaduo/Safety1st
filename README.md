@@ -1,9 +1,13 @@
 # ENSE471
-App created for the Regina Fire Protection Services
+IOS App created for the Regina Fire Protection Services
+
+Requirements to use this app:
+	1) Must have access to a Mac computer that can run XCode
+	2) Must have access to an IPhone with the ability to make phone calls
 
 Steps to use the app:
 
-	1) Create a new contact with the number to call, on an Iphone
+	1) Create or edit a contact with the number you want to call
   
 	2) Store the new contact name as 911 
   
