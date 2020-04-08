@@ -206,7 +206,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter a phone number" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="emL-1i-gJX">
-                                <rect key="frame" x="20" y="59" width="374" height="303"/>
+                                <rect key="frame" x="20" y="79" width="374" height="283"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -224,11 +224,19 @@
                                     <action selector="saveButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OAX-rI-uYn"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mode" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XtK-yk-YND">
+                                <rect key="frame" x="30" y="49" width="354" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="fUz-Vg-5LV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Ui7-AJ-grh" firstAttribute="top" secondItem="P8P-gm-Q0w" secondAttribute="bottom" constant="20" id="0D4-e0-1Fs"/>
-                            <constraint firstItem="emL-1i-gJX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="0Q6-45-We7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ui7-AJ-grh" secondAttribute="trailing" constant="20" id="1CX-if-qKj"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZDx-zs-0na" secondAttribute="bottom" constant="15" id="5dK-Cv-9Ig"/>
                             <constraint firstItem="emL-1i-gJX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="6jO-7Q-Dfu"/>
@@ -242,9 +250,11 @@
                             <constraint firstItem="5yj-LJ-KrT" firstAttribute="top" secondItem="dqb-ow-yjh" secondAttribute="bottom" constant="20" id="PAz-iN-UR0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Swi-oa-ROn" secondAttribute="bottom" constant="50" id="PDm-Bc-mnB"/>
                             <constraint firstItem="TlW-1I-g6x" firstAttribute="top" secondItem="emL-1i-gJX" secondAttribute="bottom" constant="30" id="PNV-9z-oUx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XtK-yk-YND" secondAttribute="trailing" constant="30" id="PhC-q6-pAG"/>
                             <constraint firstItem="4tj-kM-izY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="QIA-aJ-LHc"/>
                             <constraint firstItem="Swi-oa-ROn" firstAttribute="top" secondItem="tng-DW-tdn" secondAttribute="bottom" constant="30" id="SEL-bl-WFp"/>
                             <constraint firstItem="dqb-ow-yjh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SHl-Bb-2vJ"/>
+                            <constraint firstItem="emL-1i-gJX" firstAttribute="top" secondItem="XtK-yk-YND" secondAttribute="bottom" id="TuB-u1-RTE"/>
                             <constraint firstItem="PD5-1f-oTx" firstAttribute="top" secondItem="5yj-LJ-KrT" secondAttribute="bottom" constant="20" id="YWa-Ju-gIp"/>
                             <constraint firstItem="IkT-g9-ZVU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="aOv-rb-viN"/>
                             <constraint firstItem="ZDx-zs-0na" firstAttribute="top" secondItem="PD5-1f-oTx" secondAttribute="bottom" constant="20" id="c5R-kK-vjG"/>
@@ -253,11 +263,13 @@
                             <constraint firstItem="ZDx-zs-0na" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hcP-Ku-piQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="emL-1i-gJX" secondAttribute="trailing" constant="20" id="he2-dO-h3a"/>
                             <constraint firstItem="4tj-kM-izY" firstAttribute="top" secondItem="IkT-g9-ZVU" secondAttribute="bottom" constant="20" id="kUc-eO-jmj"/>
+                            <constraint firstItem="XtK-yk-YND" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="mub-bz-G1m"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Swi-oa-ROn" secondAttribute="trailing" constant="50" id="tuM-Zx-Qr8"/>
                             <constraint firstItem="P8P-gm-Q0w" firstAttribute="top" secondItem="WfW-jm-agh" secondAttribute="bottom" constant="20" id="tv0-Wj-YIf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="P8P-gm-Q0w" secondAttribute="trailing" constant="20" id="vDq-bv-FlE"/>
                             <constraint firstItem="PD5-1f-oTx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vuS-Nb-bSg"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4tj-kM-izY" secondAttribute="bottom" constant="15" id="wzE-8R-diX"/>
+                            <constraint firstItem="XtK-yk-YND" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="xIV-Aa-0tA"/>
                             <constraint firstItem="IkT-g9-ZVU" firstAttribute="top" secondItem="NKz-5D-wv5" secondAttribute="bottom" constant="20" id="yLx-eC-2RU"/>
                             <constraint firstItem="N7H-D9-Paj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yVe-qO-vKF"/>
                             <constraint firstItem="Qy2-kB-iAz" firstAttribute="top" secondItem="Q3a-76-xDk" secondAttribute="bottom" constant="20" id="yZB-uD-UBk"/>
@@ -269,6 +281,7 @@
                     <connections>
                         <outlet property="CallButtonOutlet" destination="ZDx-zs-0na" id="KRD-BN-ybG"/>
                         <outlet property="InfoBox" destination="emL-1i-gJX" id="j4o-dE-GQf"/>
+                        <outlet property="ModeLabel" destination="XtK-yk-YND" id="I4u-lQ-zXw"/>
                         <outlet property="saveButton" destination="N7H-D9-Paj" id="Yu2-bV-9jO"/>
                     </connections>
                 </viewController>

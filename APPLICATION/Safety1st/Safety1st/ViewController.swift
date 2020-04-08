@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     var enteredNum = "empty"
     var timer = Timer()
     
+    @IBOutlet weak var ModeLabel: UILabel!
     @IBOutlet weak var InfoBox: UILabel!
     @IBAction func One(_ sender: UIButton) {
         if(enteredNum == "empty"){
@@ -122,6 +123,7 @@ class ViewController: UIViewController {
         saveButton.isHidden = false;
         CallButtonOutlet.isHidden = true
         enteredNum = "empty"
+        ModeLabel.text = "Redirect Mode"
     }
     
     @IBOutlet weak var CallButtonOutlet: UIButton!
@@ -150,6 +152,7 @@ class ViewController: UIViewController {
         }
         enteredNum = "empty"
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(timerAction), userInfo: nil, repeats: false)
+        ModeLabel.text = "Call Mode"
     }
     
     @IBAction func backSpace(_ sender: UIButton) {
@@ -174,6 +177,7 @@ class ViewController: UIViewController {
         saveButton.isHidden = false
         CallButtonOutlet.isHidden = true
         InfoBox.text = helpText
+        ModeLabel.text = "Redirect Mode"
     }
     
 }
