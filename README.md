@@ -15,3 +15,4 @@ Steps to use the app:
 	![Image of Setting](https://github.com/ayonoaduo/ENSE471/blob/master/screenShot.png?raw=true)
 	
 	6) Click the play button OR Choose Run the project
+![](screenShot.png)
