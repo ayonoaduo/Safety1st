@@ -2,7 +2,9 @@
 IOS App created for the Regina Fire Protection Services
 
 Requirements to use this app:
+
 	1) Must have access to a Mac computer that can run XCode
+	
 	2) Must have access to an IPhone with the ability to make phone calls
 
 Steps to use the app:
