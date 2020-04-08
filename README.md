@@ -17,7 +17,7 @@ Requirements to use this app:
 
 4) [Linking back to Design Principles](/DOCUMENTATION/Project_Design_principles.pdf)
 	
-5) [USM board](/DOCUMENTATION/USM)
+5) [USM board](https://landofooo.storiesonboard.com/m/group-d-471-winter-2020)
 	
 6) [Deliverable 1 Customer Notes](/DOCUMENTATION/Customer_Notes/Summarized%20customer%20notes.pdf)
 
