@@ -7,6 +7,10 @@ Requirements to use this app:
 
 	2) Must have access to an IPhone with the ability to make phone calls
 
+## [Youtube Demo](https://www.youtube.com/)
+
+## [Project Presentation](https://www.youtube.com/)
+
 ## [Documentation](DOCUMENTATION)
 
 1) [Problem Definition](/DOCUMENTATION/Problem%20definition.pdf)
@@ -60,7 +64,3 @@ Requirements to use this app:
 	
 7) Click the play button OR Choose Run the project
 <img src="/ReadMeImages/screenShot.png" height="50" />
-
-## [Youtube Demo](https://www.youtube.com/channel/UCZSyPT4w2N7SboeQYtGziRA?view_as=subscriber)
-
-## [Project Presentation](https://www.youtube.com/channel/UCZSyPT4w2N7SboeQYtGziRA?view_as=subscriber)
