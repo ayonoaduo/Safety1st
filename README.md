@@ -13,14 +13,14 @@ Requirements to use this app:
 
 ## [Documentation](DOCUMENTATION)
 
-1) [Problem Definition](/DOCUMENTATION/Problem%20definition.pdf)
-	
-2) [Eco System Map](/DOCUMENTATION/Eco-system%20map.pdf)
-	
-3) [Empathy Map Template](/DOCUMENTATION/Empathy%20Map%20Template(Group%20D).pdf)
+1) [Problem Definition](/DOCUMENTATION/Problem%20Def%20%26%20Design%20Principles%20Documents/Problem%20definition.pdf)
 
-4) [Linking back to Design Principles](/DOCUMENTATION/Project_Design_principles.pdf)
-	
+2) [Eco System Map](/DOCUMENTATION/Eco-system%20%26%20Empathy%20Maps/Eco-system%20map.pdf)
+
+3) [Empathy Map Template](/DOCUMENTATION/Eco-system%20%26%20Empathy%20Maps/Empathy%20Map%20Template(Group%20D).pdf)
+
+4) [Linking back to Design Principles](/DOCUMENTATION/Problem%20Def%20%26%20Design%20Principles%20Documents/Project_Design_principles.pdf)
+
 5) [USM board](https://landofooo.storiesonboard.com/m/group-d-471-winter-2020)
 	
 6) [Deliverable 1 Customer Notes](/DOCUMENTATION/Customer_Notes/Summarized%20customer%20notes.pdf)
