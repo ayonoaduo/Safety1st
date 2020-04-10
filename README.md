@@ -9,7 +9,7 @@ Requirements to use this app:
 
 ## [Youtube Demo](https://www.youtube.com/watch?v=I99-_3FBpjA)
 
-## [Project Presentation](https://www.youtube.com/)
+## [Project Presentation](https://youtu.be/v6P20nxWGYg)
 
 ## [Documentation](DOCUMENTATION)
 
